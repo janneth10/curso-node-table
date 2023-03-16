@@ -1,0 +1,19 @@
+{
+  "name": "bases_node",
+  "version": "1.0.0",
+  "description": "genera cualquier tabla de multiplicar",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test",
+    "base3": "node app --base=3"
+  },
+  "author": "Janneth Parra A",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
